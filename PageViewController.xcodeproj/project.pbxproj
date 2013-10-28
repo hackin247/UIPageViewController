@@ -20,11 +20,9 @@
 		EC5F008F181C8660006DE913 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5F0071181C8660006DE913 /* UIKit.framework */; };
 		EC5F0097181C8660006DE913 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC5F0095181C8660006DE913 /* InfoPlist.strings */; };
 		EC5F0099181C8660006DE913 /* PageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5F0098181C8660006DE913 /* PageViewControllerTests.m */; };
-		EC5F00AA181C920A006DE913 /* PVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5F00A9181C920A006DE913 /* PVCViewController.m */; };
 		EC5F00AE181C95BB006DE913 /* IMG_1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = EC5F00AB181C95BB006DE913 /* IMG_1.PNG */; };
 		EC5F00AF181C95BB006DE913 /* IMG_2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = EC5F00AC181C95BB006DE913 /* IMG_2.PNG */; };
 		EC5F00B0181C95BB006DE913 /* IMG_3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = EC5F00AD181C95BB006DE913 /* IMG_3.PNG */; };
-		EC5F00B3181C9636006DE913 /* PVCSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5F00B2181C9636006DE913 /* PVCSampleViewController.m */; };
 		EC5F00B6181CCD94006DE913 /* PVCPagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5F00B5181CCD94006DE913 /* PVCPagesViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -56,13 +54,9 @@
 		EC5F0094181C8660006DE913 /* PageViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PageViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		EC5F0096181C8660006DE913 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC5F0098181C8660006DE913 /* PageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewControllerTests.m; sourceTree = "<group>"; };
-		EC5F00A8181C920A006DE913 /* PVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVCViewController.h; sourceTree = "<group>"; };
-		EC5F00A9181C920A006DE913 /* PVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVCViewController.m; sourceTree = "<group>"; };
 		EC5F00AB181C95BB006DE913 /* IMG_1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1.PNG; sourceTree = "<group>"; };
 		EC5F00AC181C95BB006DE913 /* IMG_2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2.PNG; sourceTree = "<group>"; };
 		EC5F00AD181C95BB006DE913 /* IMG_3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_3.PNG; sourceTree = "<group>"; };
-		EC5F00B1181C9636006DE913 /* PVCSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVCSampleViewController.h; sourceTree = "<group>"; };
-		EC5F00B2181C9636006DE913 /* PVCSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVCSampleViewController.m; sourceTree = "<group>"; };
 		EC5F00B4181CCD94006DE913 /* PVCPagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVCPagesViewController.h; sourceTree = "<group>"; };
 		EC5F00B5181CCD94006DE913 /* PVCPagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVCPagesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,10 +118,6 @@
 		EC5F0073181C8660006DE913 /* PageViewController */ = {
 			isa = PBXGroup;
 			children = (
-				EC5F00A8181C920A006DE913 /* PVCViewController.h */,
-				EC5F00A9181C920A006DE913 /* PVCViewController.m */,
-				EC5F00B1181C9636006DE913 /* PVCSampleViewController.h */,
-				EC5F00B2181C9636006DE913 /* PVCSampleViewController.m */,
 				EC5F00AB181C95BB006DE913 /* IMG_1.PNG */,
 				EC5F00AC181C95BB006DE913 /* IMG_2.PNG */,
 				EC5F00AD181C95BB006DE913 /* IMG_3.PNG */,
@@ -275,8 +265,6 @@
 				EC5F007E181C8660006DE913 /* PVCAppDelegate.m in Sources */,
 				EC5F00B6181CCD94006DE913 /* PVCPagesViewController.m in Sources */,
 				EC5F007A181C8660006DE913 /* main.m in Sources */,
-				EC5F00B3181C9636006DE913 /* PVCSampleViewController.m in Sources */,
-				EC5F00AA181C920A006DE913 /* PVCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +473,7 @@
 				EC5F009E181C8660006DE913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC5F009F181C8660006DE913 /* Build configuration list for PBXNativeTarget "PageViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +482,7 @@
 				EC5F00A1181C8660006DE913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -65,7 +65,7 @@
             if (i < [self.pages count]-1) {
                 return [self.pages objectAtIndex:i+1];
             } else {
-                return [self.pages objectAtIndex:i];
+                return nil;
             }
         }
     }
@@ -82,7 +82,7 @@ pageViewController:(UIPageViewController *)pageViewController viewControllerBefo
             if (i > 0) {
                 return [self.pages objectAtIndex:i-1];
             } else {
-                return [self.pages objectAtIndex:i];
+                return nil;
             }
         }
     }
