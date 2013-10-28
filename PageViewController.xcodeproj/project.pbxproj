@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC5F006E181C8660006DE913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5F006D181C8660006DE913 /* Foundation.framework */; };
+		EC5F0070181C8660006DE913 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5F006F181C8660006DE913 /* CoreGraphics.framework */; };
+		EC5F0072181C8660006DE913 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5F0071181C8660006DE913 /* UIKit.framework */; };
+		EC5F0078181C8660006DE913 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC5F0076181C8660006DE913 /* InfoPlist.strings */; };
+		EC5F007A181C8660006DE913 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5F0079181C8660006DE913 /* main.m */; };
+		EC5F007E181C8660006DE913 /* PVCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5F007D181C8660006DE913 /* PVCAppDelegate.m */; };
+		EC5F0081181C8660006DE913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5F007F181C8660006DE913 /* Main.storyboard */; };
+		EC5F0086181C8660006DE913 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5F0085181C8660006DE913 /* Images.xcassets */; };
+		EC5F008D181C8660006DE913 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5F008C181C8660006DE913 /* XCTest.framework */; };
+		EC5F008E181C8660006DE913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5F006D181C8660006DE913 /* Foundation.framework */; };
+		EC5F008F181C8660006DE913 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5F0071181C8660006DE913 /* UIKit.framework */; };
+		EC5F0097181C8660006DE913 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC5F0095181C8660006DE913 /* InfoPlist.strings */; };
+		EC5F0099181C8660006DE913 /* PageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5F0098181C8660006DE913 /* PageViewControllerTests.m */; };
+		EC5F00AA181C920A006DE913 /* PVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5F00A9181C920A006DE913 /* PVCViewController.m */; };
+		EC5F00AE181C95BB006DE913 /* IMG_1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = EC5F00AB181C95BB006DE913 /* IMG_1.PNG */; };
+		EC5F00AF181C95BB006DE913 /* IMG_2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = EC5F00AC181C95BB006DE913 /* IMG_2.PNG */; };
+		EC5F00B0181C95BB006DE913 /* IMG_3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = EC5F00AD181C95BB006DE913 /* IMG_3.PNG */; };
+		EC5F00B3181C9636006DE913 /* PVCSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5F00B2181C9636006DE913 /* PVCSampleViewController.m */; };
+		EC5F00B6181CCD94006DE913 /* PVCPagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5F00B5181CCD94006DE913 /* PVCPagesViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC5F0090181C8660006DE913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5F0062181C8660006DE913 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5F0069181C8660006DE913;
+			remoteInfo = PageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC5F006A181C8660006DE913 /* PageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5F006D181C8660006DE913 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC5F006F181C8660006DE913 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC5F0071181C8660006DE913 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC5F0075181C8660006DE913 /* PageViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PageViewController-Info.plist"; sourceTree = "<group>"; };
+		EC5F0077181C8660006DE913 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC5F0079181C8660006DE913 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC5F007B181C8660006DE913 /* PageViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PageViewController-Prefix.pch"; sourceTree = "<group>"; };
+		EC5F007C181C8660006DE913 /* PVCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVCAppDelegate.h; sourceTree = "<group>"; };
+		EC5F007D181C8660006DE913 /* PVCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVCAppDelegate.m; sourceTree = "<group>"; };
+		EC5F0080181C8660006DE913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC5F0085181C8660006DE913 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC5F008B181C8660006DE913 /* PageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5F008C181C8660006DE913 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC5F0094181C8660006DE913 /* PageViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PageViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		EC5F0096181C8660006DE913 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC5F0098181C8660006DE913 /* PageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewControllerTests.m; sourceTree = "<group>"; };
+		EC5F00A8181C920A006DE913 /* PVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVCViewController.h; sourceTree = "<group>"; };
+		EC5F00A9181C920A006DE913 /* PVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVCViewController.m; sourceTree = "<group>"; };
+		EC5F00AB181C95BB006DE913 /* IMG_1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1.PNG; sourceTree = "<group>"; };
+		EC5F00AC181C95BB006DE913 /* IMG_2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2.PNG; sourceTree = "<group>"; };
+		EC5F00AD181C95BB006DE913 /* IMG_3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_3.PNG; sourceTree = "<group>"; };
+		EC5F00B1181C9636006DE913 /* PVCSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVCSampleViewController.h; sourceTree = "<group>"; };
+		EC5F00B2181C9636006DE913 /* PVCSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVCSampleViewController.m; sourceTree = "<group>"; };
+		EC5F00B4181CCD94006DE913 /* PVCPagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVCPagesViewController.h; sourceTree = "<group>"; };
+		EC5F00B5181CCD94006DE913 /* PVCPagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVCPagesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC5F0067181C8660006DE913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5F0070181C8660006DE913 /* CoreGraphics.framework in Frameworks */,
+				EC5F0072181C8660006DE913 /* UIKit.framework in Frameworks */,
+				EC5F006E181C8660006DE913 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5F0088181C8660006DE913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5F008D181C8660006DE913 /* XCTest.framework in Frameworks */,
+				EC5F008F181C8660006DE913 /* UIKit.framework in Frameworks */,
+				EC5F008E181C8660006DE913 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC5F0061181C8660006DE913 = {
+			isa = PBXGroup;
+			children = (
+				EC5F0073181C8660006DE913 /* PageViewController */,
+				EC5F0092181C8660006DE913 /* PageViewControllerTests */,
+				EC5F006C181C8660006DE913 /* Frameworks */,
+				EC5F006B181C8660006DE913 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC5F006B181C8660006DE913 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F006A181C8660006DE913 /* PageViewController.app */,
+				EC5F008B181C8660006DE913 /* PageViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5F006C181C8660006DE913 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F006D181C8660006DE913 /* Foundation.framework */,
+				EC5F006F181C8660006DE913 /* CoreGraphics.framework */,
+				EC5F0071181C8660006DE913 /* UIKit.framework */,
+				EC5F008C181C8660006DE913 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC5F0073181C8660006DE913 /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F00A8181C920A006DE913 /* PVCViewController.h */,
+				EC5F00A9181C920A006DE913 /* PVCViewController.m */,
+				EC5F00B1181C9636006DE913 /* PVCSampleViewController.h */,
+				EC5F00B2181C9636006DE913 /* PVCSampleViewController.m */,
+				EC5F00AB181C95BB006DE913 /* IMG_1.PNG */,
+				EC5F00AC181C95BB006DE913 /* IMG_2.PNG */,
+				EC5F00AD181C95BB006DE913 /* IMG_3.PNG */,
+				EC5F007C181C8660006DE913 /* PVCAppDelegate.h */,
+				EC5F007D181C8660006DE913 /* PVCAppDelegate.m */,
+				EC5F007F181C8660006DE913 /* Main.storyboard */,
+				EC5F0085181C8660006DE913 /* Images.xcassets */,
+				EC5F0074181C8660006DE913 /* Supporting Files */,
+				EC5F00B4181CCD94006DE913 /* PVCPagesViewController.h */,
+				EC5F00B5181CCD94006DE913 /* PVCPagesViewController.m */,
+			);
+			path = PageViewController;
+			sourceTree = "<group>";
+		};
+		EC5F0074181C8660006DE913 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F0075181C8660006DE913 /* PageViewController-Info.plist */,
+				EC5F0076181C8660006DE913 /* InfoPlist.strings */,
+				EC5F0079181C8660006DE913 /* main.m */,
+				EC5F007B181C8660006DE913 /* PageViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC5F0092181C8660006DE913 /* PageViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F0098181C8660006DE913 /* PageViewControllerTests.m */,
+				EC5F0093181C8660006DE913 /* Supporting Files */,
+			);
+			path = PageViewControllerTests;
+			sourceTree = "<group>";
+		};
+		EC5F0093181C8660006DE913 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F0094181C8660006DE913 /* PageViewControllerTests-Info.plist */,
+				EC5F0095181C8660006DE913 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC5F0069181C8660006DE913 /* PageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5F009C181C8660006DE913 /* Build configuration list for PBXNativeTarget "PageViewController" */;
+			buildPhases = (
+				EC5F0066181C8660006DE913 /* Sources */,
+				EC5F0067181C8660006DE913 /* Frameworks */,
+				EC5F0068181C8660006DE913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PageViewController;
+			productName = PageViewController;
+			productReference = EC5F006A181C8660006DE913 /* PageViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC5F008A181C8660006DE913 /* PageViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5F009F181C8660006DE913 /* Build configuration list for PBXNativeTarget "PageViewControllerTests" */;
+			buildPhases = (
+				EC5F0087181C8660006DE913 /* Sources */,
+				EC5F0088181C8660006DE913 /* Frameworks */,
+				EC5F0089181C8660006DE913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5F0091181C8660006DE913 /* PBXTargetDependency */,
+			);
+			name = PageViewControllerTests;
+			productName = PageViewControllerTests;
+			productReference = EC5F008B181C8660006DE913 /* PageViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC5F0062181C8660006DE913 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PVC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jay Chulani";
+				TargetAttributes = {
+					EC5F008A181C8660006DE913 = {
+						TestTargetID = EC5F0069181C8660006DE913;
+					};
+				};
+			};
+			buildConfigurationList = EC5F0065181C8660006DE913 /* Build configuration list for PBXProject "PageViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC5F0061181C8660006DE913;
+			productRefGroup = EC5F006B181C8660006DE913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC5F0069181C8660006DE913 /* PageViewController */,
+				EC5F008A181C8660006DE913 /* PageViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC5F0068181C8660006DE913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5F0086181C8660006DE913 /* Images.xcassets in Resources */,
+				EC5F0078181C8660006DE913 /* InfoPlist.strings in Resources */,
+				EC5F0081181C8660006DE913 /* Main.storyboard in Resources */,
+				EC5F00AF181C95BB006DE913 /* IMG_2.PNG in Resources */,
+				EC5F00B0181C95BB006DE913 /* IMG_3.PNG in Resources */,
+				EC5F00AE181C95BB006DE913 /* IMG_1.PNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5F0089181C8660006DE913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5F0097181C8660006DE913 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC5F0066181C8660006DE913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5F007E181C8660006DE913 /* PVCAppDelegate.m in Sources */,
+				EC5F00B6181CCD94006DE913 /* PVCPagesViewController.m in Sources */,
+				EC5F007A181C8660006DE913 /* main.m in Sources */,
+				EC5F00B3181C9636006DE913 /* PVCSampleViewController.m in Sources */,
+				EC5F00AA181C920A006DE913 /* PVCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5F0087181C8660006DE913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5F0099181C8660006DE913 /* PageViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC5F0091181C8660006DE913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5F0069181C8660006DE913 /* PageViewController */;
+			targetProxy = EC5F0090181C8660006DE913 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC5F0076181C8660006DE913 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5F0077181C8660006DE913 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC5F007F181C8660006DE913 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5F0080181C8660006DE913 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC5F0095181C8660006DE913 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5F0096181C8660006DE913 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC5F009A181C8660006DE913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC5F009B181C8660006DE913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC5F009D181C8660006DE913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageViewController/PageViewController-Prefix.pch";
+				INFOPLIST_FILE = "PageViewController/PageViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC5F009E181C8660006DE913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageViewController/PageViewController-Prefix.pch";
+				INFOPLIST_FILE = "PageViewController/PageViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC5F00A0181C8660006DE913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PageViewController.app/PageViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageViewController/PageViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PageViewControllerTests/PageViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC5F00A1181C8660006DE913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PageViewController.app/PageViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageViewController/PageViewController-Prefix.pch";
+				INFOPLIST_FILE = "PageViewControllerTests/PageViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC5F0065181C8660006DE913 /* Build configuration list for PBXProject "PageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5F009A181C8660006DE913 /* Debug */,
+				EC5F009B181C8660006DE913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5F009C181C8660006DE913 /* Build configuration list for PBXNativeTarget "PageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5F009D181C8660006DE913 /* Debug */,
+				EC5F009E181C8660006DE913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC5F009F181C8660006DE913 /* Build configuration list for PBXNativeTarget "PageViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5F00A0181C8660006DE913 /* Debug */,
+				EC5F00A1181C8660006DE913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC5F0062181C8660006DE913 /* Project object */;
+}
